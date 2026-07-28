@@ -1,1 +1,5 @@
 README.md
+
+{{- if or (not (lookPath "zsh")) (ne (base (env "SHELL")) "zsh") }}
+.zshrc
+{{- end }}

@@ -1,0 +1,42 @@
+onboarding = false
+
+[theme]
+name = "tokyo-night"
+
+auto_switch = false
+[terminal]
+new_cwd = "follow"
+
+[keys]
+prefix = "ctrl+b"
+copy_mode = ["prefix+[", "prefix+enter"]
+split_vertical = ["prefix+v", "prefix+shift+minus"]
+split_horizontal = "prefix+minus"
+focus_pane_left = ["prefix+h", "ctrl+alt+h"]
+focus_pane_down = ["prefix+j", "ctrl+alt+j"]
+focus_pane_up = ["prefix+k", "ctrl+alt+k"]
+focus_pane_right = ["prefix+l", "ctrl+alt+l"]
+previous_tab = ["prefix+p", "alt+left"]
+next_tab = ["prefix+n", "alt+right"]
+switch_tab = ["prefix+1..9", "alt+1..9"]
+new_workspace = ["prefix+shift+n", "prefix+ctrl+c"]
+workspace_picker = ["prefix+w", "prefix+ctrl+f"]
+previous_workspace = "alt+up"
+next_workspace = "alt+down"
+close_workspace = ["prefix+shift+d", "prefix+ctrl+x"]
+previous_agent = "prefix+alt+k"
+next_agent = "prefix+alt+j"
+focus_agent = "prefix+alt+1..9"
+navigate_workspace_up = "k"
+navigate_workspace_down = "j"
+navigate_pane_left = "h"
+navigate_pane_down = "ctrl+j"
+navigate_pane_up = "ctrl+k"
+navigate_pane_right = "l"
+
+[ui]
+tab_bar_position = "top"
+prompt_new_tab_name = false
+pane_gaps = false
+show_agent_labels_on_pane_borders = true
+agent_panel_sort = "priority"

@@ -4,7 +4,8 @@ Portable configuration managed with [chezmoi](https://www.chezmoi.io/).
 
 Currently included:
 
-- LazyVim
+- LazyVim (language extras and remote clipboard support)
+- Herdr (navigation keys and pane layout shortcut)
 - tmux (`~/.config/tmux/tmux.conf`)
 
 Machine-specific files, secrets, and Omarchy-managed files are intentionally
